@@ -1,0 +1,140 @@
+/* section-part */
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e6e7eb;
+}
+
+/* article-part */
+article {
+    background-color: antiquewhite;
+    width: 700px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* action for both divs */
+.both-divs {
+    width: 350px;
+    height: 450px;
+}
+
+/* action for first div alone */
+div:nth-of-type(1) {
+    background-color: #ffffff;
+}
+
+div:nth-of-type(1) button {
+    padding: 5px 120px;
+    background-color: #101727;
+    color: #fff;
+    border-radius: 10px;
+}
+
+div:nth-of-type(1) h1{
+font-size: larger;
+}
+
+div:nth-of-type(1) h2 {
+    border: solid 1px rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-right: 40px;
+    margin-left: 40px;
+    text-align: center;
+    font-weight: 550;
+    font-size: medium;
+    padding: 10px 40px;
+}
+
+/* actions for second div alone */
+div:nth-of-type(2) {
+    background-image: url(second-pic.jpg);
+    background-position: center;
+    background-size: cover;
+    color:#fff;
+}
+
+/* action for (remember and forgot password) */
+.rem-and-forgot {
+    display: inline;
+    font-size: small;
+}
+
+/* first div content */
+.all-content-in-first-div {
+    margin-left: 40px;
+}
+
+/* nav part */
+#first-nav{
+margin:50px 20px;
+}
+
+#first-nav img{
+    margin-top:100px;
+    margin-left: -20px;
+    width:350px;
+    height:70px;
+}
+
+/* span part*/
+#first-span {
+    background: #fff;
+    padding: 0 10px;
+}
+
+#d-or {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+#second-span{
+    font-weight: 550;
+    font-size: medium;
+}
+
+#third-span{
+    font-size: medium;
+}
+#fourth-span{
+    font-weight: 550;
+    font-size: small;
+}
+
+#fifth-span{
+    font-size: small;
+}
+
+/* iota css edit */
+input {
+    padding: 0px 40px;
+    border-top: #000;
+    border-left: #fff;
+    border-right: #fff;
+}
+
+#fp{
+    color: #000;
+}
+
+#signup{
+    color:#000;
+}
+
+.arrow{
+    border-radius: 50%;
+    border:solid white 2px;
+    padding:10px;
+}
+
+#glass-picture{
+    opacity: 0.8;
+}
+
