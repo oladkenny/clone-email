@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Email Cloned Page </title>
+    <title>Email Cloned Page</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
@@ -12,53 +12,71 @@
 <body>
     <section>
         <article>
-            <div class="both-divs">
-                <h1 class="all-content-in-first-div">Welcome back,Olivia</h1>
-                <p class="all-content-in-first-div">Welcome back! Please enter your details.</p>
-                <h2> <img src="download.png" alt="google-pic" width="18px"> Log in with Google</h2>
-                <br>
-                <p id="d-or"><span id="first-span">or</span></p>
-                <form action="/login.com" class="all-content-in-first-div">
-                    <p>
-                        <label for="email">Email</label>
-                        <br>
-                        <input type="email" id="email" name="user's-mail">
-                    </p>
-                    <p>
-                        <label for="password">Password</label>
-                        <br>
-                        <input type="password" id="password" name="user's-password">
-                    </p>
-                    <p class="rem-and-forgot">
-                        <input type="checkbox" id="checkbox" name="password-remembrance?">
-                        <label for="checkbox"> Remember for 30 days.</label>
-                    </p>
-                    <p class="rem-and-forgot"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<a href="/forgot-password"
-                            id="fp">Forgot password</a></p>
-                    <p><button type="submit">Log in</button></p>
-                </form>
-                <p class="all-content-in-first-div">Dont't have an account? <a href="/signup.com" id="signup"> Sign
-                        up
-                        for free</a></p>
+            <div class="left-div">
+                <div class="leftDiv-cont">
+                    <div class="left-texts">
+                        <h1>Welcome back,Olivia</h1>
+                        <p>Welcome back! Please enter your details.</p>
+                    </div>
+                    <div class="google-login">
+                        <img src="download.png" alt="google-pic" width="18px">
+                        <p>Log in with Google</p>
+                    </div>
+                    <div class="or">
+                        <p></p>
+                        <span>or</span>
+                        <p></p>
+                    </div>
+                    <form action="/login.com">
+                        <div class="email-form">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="user's-mail">
+                        </div>
+                        <div class="email-form">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="user's-password">
+                        </div>
+                        <div class="forgot">
+                            <div class="rem-and-forgot">
+                                <input type="checkbox" id="checkbox" name="password-remembrance?">
+                                <label for="checkbox"> Remember for 30 days.</label>
+                            </div>
+                            <div class="rem-and-forgot">
+                                <a href="/forgot-password">Forgot password</a>
+                            </div>
+                        </div>
+                        <button type="submit">Log in</button>
+                    </form>
+                    <div class="signup-cont">
+                        <p> Dont't have an account? <a href="/signup.com">
+                                Sign up for free</a></p>
+                    </div>
+                </div>
             </div>
 
-            <div div class="both-divs">
-                <nav id="first-nav">
+            <div class="right-div">
+                <div class="rightDiv-cont">
                     <img src="glass.jpg" alt="glassy-pic" id="glass-picture">
-                    <p> <span id="second-span"> We move 10x faster than our peers and stay consistent. while they're
-                            bugged down with design
-                            debt, we're releasing new features
-                    </p>
-                    <p><span id="third-span">Sophie Hall</span> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-                        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-                        &nbsp &nbsp &#9733; &#9733; &#9733; &#9733; &#9733;</p>
-                    <p> <span id="fourth-span">Founder,Catalogue</span>
-                        <br>
-                        <span id="fifth-span"> Web Design Agency</span> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-                        &nbsp &nbsp &nbsp &nbsp &nbsp<span class="arrow" span> &larr;</span> <span
-                            class="arrow">&rarr;</span>
-                    </p>
-                </nav>
+                    <p class="rightDiv-text">We move 10x faster than our peers and stay consistent. While they're bugged
+                        down with design debt, we're releasing new features.</p>
+
+                    <div class="sophie">
+                        <p class="sophie-text">Sophie Hall</p>
+                        <p>&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+                    </div>
+                    <div class="founder">
+                        <div class="founder-web">
+
+                            <p>Founder,Catalogue</p>
+                            <p>Web Design Agency</p>
+                        </div>
+                        <div class="arrow-cont">
+                            <span class="arrow"> &larr;</span>
+                            <span class="arrow">&rarr;</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
             </div>
 
         </article>
